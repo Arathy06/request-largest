@@ -24,12 +24,12 @@ if(getx>gety)
 {
     if(getx>getz)
     {
-        console.log("Largest is:",getx)
+        res.status(200).json("Largest is:",getx)
         
     }
     else
     {
-        console.log("Largest is:",getz)
+        res.status(200).json("Largest is:",getz)
         
     }
 }
@@ -37,11 +37,11 @@ else
 {
     if(gety>getz)
         {
-            console.log("Largest is:",gety)
+            res.status(200).json("Largest is:",gety)
         }
         else
         {
-            console.log("Largest is:",getz)
+            res.status(200).json("Largest is:",getz)
         }
 }
 })
